@@ -41,6 +41,7 @@ export const createMockConfig = (config: DeepPartial<RepomixConfigMerged> = {}):
       ...defaultConfig.tokenCount,
       ...config.tokenCount,
     },
+    pythonStaticAnalysis: config.pythonStaticAnalysis ?? defaultConfig.pythonStaticAnalysis,
   };
 };
 
