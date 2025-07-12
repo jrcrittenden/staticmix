@@ -116,4 +116,34 @@ describe('parseFile for Python', () => {
       expect(result).toContain(expectContent);
     }
   });
+
+  test('should parse async function without return annotation', async () => {
+    const fileContent = `
+      async def ping():
+          pass
+    `;
+
+    const result = await parseFile(fileContent, 'async_example.py', defaultConfig);
+
+    const expectContents = ['async def ping()'];
+
+    for (const expectContent of expectContents) {
+      expect(result).toContain(expectContent);
+    }
+  });
+
+  test('should parse async function with return annotation', async () => {
+    const fileContent = `
+      async def fetch_data(url: str) -> dict:
+          return {}
+    `;
+
+    const result = await parseFile(fileContent, 'async_example.py', defaultConfig);
+
+    const expectContents = ['async def fetch_data(url: str) -> dict'];
+
+    for (const expectContent of expectContents) {
+      expect(result).toContain(expectContent);
+    }
+  });
 });
