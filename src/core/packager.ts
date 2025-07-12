@@ -12,6 +12,8 @@ import { copyToClipboardIfEnabled } from './packager/copyToClipboardIfEnabled.js
 import { writeOutputToDisk } from './packager/writeOutputToDisk.js';
 import type { SuspiciousFileResult } from './security/securityCheck.js';
 import { validateFileSafety } from './security/validateFileSafety.js';
+import type { PythonAnalysisSummary } from './pythonStaticAnalysis.js';
+import { runPythonStaticAnalysis } from './pythonStaticAnalysis.js';
 
 export interface PackResult {
   totalFiles: number;
@@ -24,6 +26,7 @@ export interface PackResult {
   suspiciousGitDiffResults: SuspiciousFileResult[];
   processedFiles: ProcessedFile[];
   safeFilePaths: string[];
+  pythonAnalysisSummary: PythonAnalysisSummary[];
 }
 
 const defaultDeps = {
@@ -37,6 +40,7 @@ const defaultDeps = {
   calculateMetrics,
   sortPaths,
   getGitDiffs,
+  runPythonStaticAnalysis,
 };
 
 export const pack = async (
@@ -93,6 +97,12 @@ export const pack = async (
   progressCallback('Processing files...');
   const processedFiles = await deps.processFiles(safeRawFiles, config, progressCallback);
 
+  let pythonAnalysisSummary: PythonAnalysisSummary[] = [];
+  if (config.pythonStaticAnalysis) {
+    const pythonFiles = safeFilePaths.filter((p) => p.endsWith('.py'));
+    pythonAnalysisSummary = await deps.runPythonStaticAnalysis(pythonFiles, progressCallback);
+  }
+
   progressCallback('Generating output...');
   const output = await deps.generateOutput(rootDirs, config, processedFiles, safeFilePaths, gitDiffResult);
 
@@ -110,6 +120,7 @@ export const pack = async (
     suspiciousGitDiffResults,
     processedFiles,
     safeFilePaths,
+    pythonAnalysisSummary,
   };
 
   return result;

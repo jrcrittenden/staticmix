@@ -313,6 +313,10 @@ export const buildCliConfig = (options: CliOptions): RepomixConfigCli => {
     };
   }
 
+  if (options.pythonStaticAnalysis !== undefined) {
+    cliConfig.pythonStaticAnalysis = options.pythonStaticAnalysis;
+  }
+
   try {
     return repomixConfigCliSchema.parse(cliConfig);
   } catch (error) {

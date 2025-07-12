@@ -38,6 +38,15 @@ export const printSummary = (packResult: PackResult, config: RepomixConfigMerged
     }
     logger.log(`${pc.white('    Git Diffs:')} ${gitDiffsMessage}`);
   }
+
+  if (packResult.pythonAnalysisSummary && packResult.pythonAnalysisSummary.length > 0) {
+    logger.log(`${pc.white(' Python Lint:')}`);
+    packResult.pythonAnalysisSummary.forEach((item) => {
+      const count = item.messages.length;
+      const issue = count === 1 ? 'issue' : 'issues';
+      logger.log(pc.dim(`  - ${item.file}: ${count} ${issue}`));
+    });
+  }
 };
 
 export const printSecurityCheck = (

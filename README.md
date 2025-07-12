@@ -75,6 +75,7 @@ If Repomix has helped you analyze or pack codebases for AI tools, we'd be gratef
 - **Git-Aware**: Automatically respects your `.gitignore` files and `.git/info/exclude`.
 - **Security-Focused**: Incorporates [Secretlint](https://github.com/secretlint/secretlint) for robust security checks to detect and prevent inclusion of sensitive information.
 - **Code Compression**: The `--compress` option uses [Tree-sitter](https://github.com/tree-sitter/tree-sitter) to extract key code elements, reducing token count while preserving structure.
+- **Python Linting**: The `--python-static-analysis` flag runs `pyflakes` on your Python files and reports unused imports or undefined variables.
 
 ## 🚀 Quick Start
 
@@ -552,6 +553,8 @@ Instruction
 
 #### Other Options
 - `--top-files-len <number>`: Number of top files to display in the summary
+- `--python-static-analysis`: Run `pyflakes` on Python files and include a summary
+  in the output. Requires Python 3 and the `pyflakes` package (`pip install pyflakes`).
 - `--verbose`: Enable verbose logging
 - `--quiet`: Disable all output to stdout
 

@@ -53,4 +53,5 @@ export interface CliOptions extends OptionValues {
   topFilesLen?: number;
   verbose?: boolean;
   quiet?: boolean;
+  pythonStaticAnalysis?: boolean;
 }

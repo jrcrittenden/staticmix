@@ -64,6 +64,7 @@ export const repomixConfigBaseSchema = z.object({
       encoding: z.string().optional(),
     })
     .optional(),
+  pythonStaticAnalysis: z.boolean().optional(),
 });
 
 // Default config schema with default values
@@ -124,6 +125,7 @@ export const repomixConfigDefaultSchema = z.object({
         .transform((val) => val as TiktokenEncoding),
     })
     .default({}),
+  pythonStaticAnalysis: z.boolean().default(false),
 });
 
 // File-specific schema. Add options for file path and style

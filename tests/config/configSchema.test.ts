@@ -94,6 +94,7 @@ describe('configSchema', () => {
         tokenCount: {
           encoding: 'o200k_base',
         },
+        pythonStaticAnalysis: false,
       };
       expect(repomixConfigDefaultSchema.parse(validConfig)).toEqual(validConfig);
     });
@@ -188,6 +189,7 @@ describe('configSchema', () => {
         tokenCount: {
           encoding: 'o200k_base',
         },
+        pythonStaticAnalysis: false,
       };
       expect(repomixConfigMergedSchema.parse(validConfig)).toEqual(validConfig);
     });

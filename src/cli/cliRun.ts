@@ -106,6 +106,7 @@ export const run = async () => {
       // Other Options
       .optionsGroup('Other Options')
       .option('--top-files-len <number>', 'specify the number of top files to display', Number.parseInt)
+      .option('--python-static-analysis', 'run Python static analysis on Python files')
       .addOption(new Option('--verbose', 'enable verbose logging for detailed output').conflicts('quiet'))
       .addOption(new Option('--quiet', 'disable all output to stdout').conflicts('verbose'))
       .action(commanderActionEndpoint);
