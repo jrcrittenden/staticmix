@@ -92,9 +92,15 @@ export class PythonParseStrategy implements ParseStrategy {
     return match ? line.replace(/:\s*$/, '') : line.replace(/:\s*$/, '');
   }
 
+  /**
+   * Extracts the function signature from the given line.
+   *
+   * The regex supports optional `async` prefixes and return type annotations
+   * such as `async def func(arg: int) -> str:`.
+   */
   private getFunctionSignature(lines: string[], startRow: number): string | null {
     const line = lines[startRow];
-    const match = line.match(/def\s+(\w+)\s*\((.*?)\)(\s*->\s*[^:]+)?:/);
+    const match = line.match(/(?:async\s+)?def\s+(\w+)\s*\(([^)]*)\)(?:\s*->\s*[^:]+)?\s*:/);
     if (!match) return null;
     return line.replace(/:\s*$/, '');
   }

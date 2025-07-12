@@ -20,6 +20,17 @@ export const queryPython = `
 (function_definition
   name: (identifier) @name.definition.function) @definition.function
 
+(function_definition
+  name: (identifier) @name.definition.function
+  return_type: (type) @name.reference.type) @definition.function
+
+(function_definition
+  "async" name: (identifier) @name.definition.function) @definition.function
+
+(function_definition
+  "async" name: (identifier) @name.definition.function
+  return_type: (type) @name.reference.type) @definition.function
+
 (call
   function: [
       (identifier) @name.reference.call
