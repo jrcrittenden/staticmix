@@ -1,4 +1,4 @@
-# Xử lý kho lưu trữ từ xa
+# Xử lý kho lưu trữ GitHub
 
 Repomix có thể xử lý các kho lưu trữ từ xa mà không cần clone chúng cục bộ, giúp bạn dễ dàng đóng gói và phân tích các dự án mã nguồn mở.
 

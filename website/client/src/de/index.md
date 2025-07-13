@@ -66,6 +66,12 @@ Bei der Diskussion spezifischer Änderungen kann die KI bei der Code-Generierung
 
 Viel Spaß beim Programmieren! 🚀
 
+## Warum Repomix?
+
+Repomix zeichnet sich durch seine Fähigkeit aus, mit Abonnement-Services wie ChatGPT, Claude, Gemini, Grok zu arbeiten, ohne sich um Kosten sorgen zu müssen, während es einen vollständigen Codebase-Kontext bereitstellt, der die Notwendigkeit zur Dateierkundung eliminiert – was die Analyse schneller und oft genauer macht.
+
+Mit der gesamten Codebase als verfügbarem Kontext ermöglicht Repomix eine breite Palette von Anwendungen, einschließlich Implementierungsplanung, Fehleruntersuchung, Sicherheitsprüfungen von Drittanbieter-Bibliotheken, Dokumentationsgenerierung und vieles mehr.
+
 ## Verwendung des CLI-Tools {#using-the-cli-tool}
 
 Repomix kann als Kommandozeilen-Tool verwendet werden und bietet leistungsstarke Funktionen und Anpassungsoptionen.
@@ -203,6 +209,16 @@ Erstellen Sie eine `repomix.config.json` für dauerhafte Einstellungen:
   }
 }
 ```
+
+## Anwendungsfälle aus der Praxis
+
+### [LLM Code-Generierungs-Workflow](https://harper.blog/2025/02/16/my-llm-codegen-workflow-atm/)
+
+Ein Entwickler teilt, wie er Repomix verwendet, um Code-Kontext aus bestehenden Codebasen zu extrahieren und diesen Kontext dann mit LLMs wie Claude und Aider für inkrementelle Verbesserungen, Code-Reviews und automatisierte Dokumentationsgenerierung nutzt.
+
+### [Erstellung von Wissensdatenpaketen für LLMs](https://lethain.com/competitive-advantage-author-llms/)
+
+Autoren verwenden Repomix, um ihre schriftlichen Inhalte – Blogs, Dokumentationen und Bücher – in LLM-kompatible Formate zu verpacken, wodurch Leser über KI-gestützte Q&A-Systeme mit ihrer Expertise interagieren können.
 
 ## Power-User-Leitfaden
 

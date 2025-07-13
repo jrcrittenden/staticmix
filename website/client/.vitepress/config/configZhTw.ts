@@ -21,6 +21,7 @@ export const configZhTw = defineConfig({
             { text: '安裝', link: '/zh-tw/guide/installation' },
             { text: '基本用法', link: '/zh-tw/guide/usage' },
             { text: '提示範例', link: '/zh-tw/guide/prompt-examples' },
+            { text: '使用案例', link: '/zh-tw/guide/use-cases' },
           ],
         },
         {
@@ -30,20 +31,26 @@ export const configZhTw = defineConfig({
             { text: '命令行選項', link: '/zh-tw/guide/command-line-options' },
             { text: '配置', link: '/zh-tw/guide/configuration' },
             { text: '自定義指令', link: '/zh-tw/guide/custom-instructions' },
-            { text: '遠端倉庫處理', link: '/zh-tw/guide/remote-repository-processing' },
+            { text: 'GitHub倉庫處理', link: '/zh-tw/guide/remote-repository-processing' },
             { text: '註釋移除', link: '/zh-tw/guide/comment-removal' },
             { text: '程式碼壓縮', link: '/zh-tw/guide/code-compress' },
             { text: '安全性', link: '/zh-tw/guide/security' },
-            { text: 'MCP 伺服器', link: '/zh-tw/guide/mcp-server' },
-            { text: 'GitHub Actions', link: '/zh-tw/guide/github-actions' },
           ],
         },
         {
           text: '高級',
           items: [
+            { text: 'MCP 伺服器', link: '/zh-tw/guide/mcp-server' },
+            { text: 'GitHub Actions', link: '/zh-tw/guide/github-actions' },
             { text: '作為庫使用 Repomix', link: '/zh-tw/guide/development/using-repomix-as-a-library' },
             { text: 'AI輔助開發技巧', link: '/zh-tw/guide/tips/best-practices' },
+          ],
+        },
+        {
+          text: '社群',
+          items: [
             { text: '為Repomix做貢獻', link: '/zh-tw/guide/development/' },
+            { text: '贊助商', link: '/zh-tw/guide/sponsors' },
           ],
         },
       ],

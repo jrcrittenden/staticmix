@@ -66,7 +66,11 @@ AI 將分析您的整個程式碼庫並提供全面的見解：
 
 祝您編碼愉快！🚀
 
+## 為什麼選擇 Repomix？
 
+Repomix的強項在於可以與ChatGPT、Claude、Gemini、Grok等訂閱服務配合使用而無需擔心成本，同時提供完整的程式碼庫上下文，消除了檔案探索的需要——使分析更快速，往往也更準確。
+
+透過將整個程式碼庫作為上下文，Repomix支援廣泛的應用場景，包括實作規劃、錯誤調查、第三方函式庫安全檢查、文件生成等等。
 
 ## 使用 CLI 工具 {#using-the-cli-tool}
 
@@ -207,6 +211,16 @@ repomix --style plain
   }
 }
 ```
+
+## 真實世界使用案例
+
+### [LLM 程式碼生成工作流程](https://harper.blog/2025/02/16/my-llm-codegen-workflow-atm/)
+
+一位開發者分享了他們如何使用 Repomix 從現有程式碼庫中提取程式碼上下文，然後與 Claude 和 Aider 等 LLM 一起利用該上下文進行漸進式改進、程式碼審查和自動化文件生成。
+
+### [為 LLM 建立知識資料包](https://lethain.com/competitive-advantage-author-llms/)
+
+作者正在使用 Repomix 將他們的書面內容——部落格、文件和書籍——封裝為 LLM 相容格式，使讀者能夠透過 AI 驅動的問答系統與他們的專業知識進行互動。
 
 ## 進階使用者指南
 

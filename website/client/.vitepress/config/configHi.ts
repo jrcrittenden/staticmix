@@ -21,6 +21,7 @@ export const configHi = defineConfig({
             { text: 'इंस्टॉलेशन', link: '/hi/guide/installation' },
             { text: 'बुनियादी उपयोग', link: '/hi/guide/usage' },
             { text: 'प्रॉम्प्ट उदाहरण', link: '/hi/guide/prompt-examples' },
+            { text: 'उपयोग के मामले', link: '/hi/guide/use-cases' },
           ],
         },
         {
@@ -30,20 +31,26 @@ export const configHi = defineConfig({
             { text: 'कमांड लाइन विकल्प', link: '/hi/guide/command-line-options' },
             { text: 'कॉन्फ़िगरेशन', link: '/hi/guide/configuration' },
             { text: 'कस्टम निर्देश', link: '/hi/guide/custom-instructions' },
-            { text: 'रिमोट रिपॉजिटरी प्रोसेसिंग', link: '/hi/guide/remote-repository-processing' },
+            { text: 'GitHub रिपॉजिटरी प्रोसेसिंग', link: '/hi/guide/remote-repository-processing' },
             { text: 'टिप्पणी हटाना', link: '/hi/guide/comment-removal' },
             { text: 'कोड कम्प्रेशन', link: '/hi/guide/code-compress' },
             { text: 'सुरक्षा', link: '/hi/guide/security' },
-            { text: 'MCP सर्वर', link: '/hi/guide/mcp-server' },
-            { text: 'GitHub Actions', link: '/hi/guide/github-actions' },
           ],
         },
         {
           text: 'उन्नत',
           items: [
+            { text: 'MCP सर्वर', link: '/hi/guide/mcp-server' },
+            { text: 'GitHub Actions', link: '/hi/guide/github-actions' },
             { text: 'Repomix को लाइब्रेरी के रूप में उपयोग', link: '/hi/guide/development/using-repomix-as-a-library' },
             { text: 'AI-सहायक विकास टिप्स', link: '/hi/guide/tips/best-practices' },
+          ],
+        },
+        {
+          text: 'समुदाय',
+          items: [
             { text: 'Repomix में योगदान', link: '/hi/guide/development/' },
+            { text: 'प्रायोजक', link: '/hi/guide/sponsors' },
           ],
         },
       ],

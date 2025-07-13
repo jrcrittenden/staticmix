@@ -6,7 +6,7 @@ import YouTubeVideo from '../../../components/YouTubeVideo.vue'
 import { VIDEO_IDS } from '../../../utils/videos'
 </script>
 
-Repomix는 전체 저장소를 AI 친화적인 단일 파일로 패키징하는 도구입니다. ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok 등의 대규모 언어 모델(LLM)에 코드베이스를 제공하는 데 도움이 되도록 설계되었습니다.
+Repomix는 전체 저장소를 AI 친화적인 단일 파일로 패키징하는 도구입니다. ChatGPT, Claude, Gemini, Grok, DeepSeek, Perplexity, Gemma, Llama 등의 대규모 언어 모델(LLM)에 코드베이스를 제공하는 데 도움이 되도록 설계되었습니다.
 
 <YouTubeVideo :videoId="VIDEO_IDS.REPOMIX_DEMO" />
 
@@ -40,6 +40,12 @@ AI는 전체 코드베이스를 분석하고 포괄적인 인사이트를 제공
 ![Repomix 파일 사용 예시 2](/images/docs/repomix-file-usage-2.png)
 
 즐거운 코딩 되세요! 🚀
+
+## 왜 Repomix인가요?
+
+Repomix의 강점은 비용 걱정 없이 ChatGPT, Claude, Gemini, Grok 등의 구독 서비스와 함께 작동할 수 있는 능력에 있으며, 파일 탐색의 필요성을 제거하는 완전한 코드베이스 컨텍스트를 제공하여 분석을 더 빠르고 종종 더 정확하게 만듭니다.
+
+전체 코드베이스가 컨텍스트로 사용 가능하므로, Repomix는 구현 계획, 버그 조사, 서드파티 라이브러리 보안 검사, 문서 생성 등을 포함한 광범위한 애플리케이션을 가능하게 합니다.
 
 ## 핵심 기능
 

@@ -66,6 +66,11 @@ Ketika mendiskusikan perubahan spesifik, AI dapat membantu menghasilkan kode. De
 
 Selamat mengkode! 🚀
 
+## Mengapa Repomix?
+
+Kekuatan Repomix terletak pada kemampuannya untuk bekerja dengan layanan berlangganan seperti ChatGPT, Claude, Gemini, Grok tanpa khawatir tentang biaya, sambil menyediakan konteks codebase lengkap yang menghilangkan kebutuhan eksplorasi file—membuat analisis lebih cepat dan seringkali lebih akurat.
+
+Dengan seluruh codebase tersedia sebagai konteks, Repomix memungkinkan berbagai aplikasi termasuk perencanaan implementasi, investigasi bug, pemeriksaan keamanan pustaka pihak ketiga, generasi dokumentasi, dan banyak lagi.
 
 ## Menggunakan Alat CLI {#using-the-cli-tool}
 
@@ -206,6 +211,16 @@ Buat `repomix.config.json` untuk pengaturan permanen:
   }
 }
 ```
+
+## Kasus Penggunaan di Dunia Nyata
+
+### [Alur Kerja Pembuatan Kode LLM](https://harper.blog/2025/02/16/my-llm-codegen-workflow-atm/)
+
+Seorang developer membagikan bagaimana mereka menggunakan Repomix untuk mengekstrak konteks kode dari codebase yang ada, kemudian memanfaatkan konteks tersebut dengan LLM seperti Claude dan Aider untuk perbaikan bertahap, ulasan kode, dan pembuatan dokumentasi otomatis.
+
+### [Membuat Paket Data Pengetahuan untuk LLM](https://lethain.com/competitive-advantage-author-llms/)
+
+Para penulis menggunakan Repomix untuk mengemas konten tertulis mereka—blog, dokumentasi, dan buku—ke dalam format yang kompatibel dengan LLM, memungkinkan pembaca berinteraksi dengan keahlian mereka melalui sistem tanya jawab yang didukung AI.
 
 ## Panduan Pengguna Mahir
 

@@ -66,6 +66,11 @@ Khi thảo luận về các thay đổi cụ thể, AI có thể giúp tạo mã
 
 Chúc bạn code vui vẻ! 🚀
 
+## Tại sao chọn Repomix?
+
+Sức mạnh của Repomix nằm ở khả năng làm việc với các dịch vụ đăng ký như ChatGPT, Claude, Gemini, Grok mà không lo lắng về chi phí, đồng thời cung cấp ngữ cảnh codebase hoàn chỉnh giúp loại bỏ nhu cầu khám phá tệp—làm cho việc phân tích nhanh hơn và thường chính xác hơn.
+
+Với toàn bộ codebase có sẵn làm ngữ cảnh, Repomix cho phép một loạt các ứng dụng bao gồm lập kế hoạch triển khai, điều tra lỗi, kiểm tra bảo mật thư viện bên thứ ba, tạo tài liệu và nhiều hơn nữa.
 
 ## Sử dụng công cụ CLI {#using-the-cli-tool}
 
@@ -206,6 +211,16 @@ Tạo một `repomix.config.json` cho các cài đặt cố định:
   }
 }
 ```
+
+## Các Trường Hợp Sử Dụng Thực Tế
+
+### [Quy Trình Sinh Mã LLM](https://harper.blog/2025/02/16/my-llm-codegen-workflow-atm/)
+
+Một nhà phát triển chia sẻ cách họ sử dụng Repomix để trích xuất ngữ cảnh mã từ các codebase hiện có, sau đó tận dụng ngữ cảnh đó với các LLM như Claude và Aider để cải tiến dần dần, đánh giá mã và tạo tài liệu tự động.
+
+### [Tạo Gói Dữ Liệu Kiến Thức cho LLM](https://lethain.com/competitive-advantage-author-llms/)
+
+Các tác giả đang sử dụng Repomix để đóng gói nội dung viết của họ—blog, tài liệu và sách—thành các định dạng tương thích với LLM, cho phép độc giả tương tác với chuyên môn của họ thông qua các hệ thống hỏi đáp được hỗ trợ bởi AI.
 
 ## Hướng Dẫn Người Dùng Chuyên Nghiệp
 

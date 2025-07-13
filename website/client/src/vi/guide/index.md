@@ -6,7 +6,7 @@ import YouTubeVideo from '../../../components/YouTubeVideo.vue'
 import { VIDEO_IDS } from '../../../utils/videos'
 </script>
 
-Repomix là một công cụ đóng gói toàn bộ kho lưu trữ của bạn thành một tệp duy nhất, thân thiện với AI. Nó được thiết kế để giúp bạn cung cấp codebase cho các Mô hình Ngôn ngữ Lớn (LLMs) như ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, và nhiều mô hình khác.
+Repomix là một công cụ đóng gói toàn bộ kho lưu trữ của bạn thành một tệp duy nhất, thân thiện với AI. Nó được thiết kế để giúp bạn cung cấp codebase cho các Mô hình Ngôn ngữ Lớn (LLMs) như ChatGPT, Claude, Gemini, Grok, DeepSeek, Perplexity, Gemma, Llama, và nhiều mô hình khác.
 
 <YouTubeVideo :videoId="VIDEO_IDS.REPOMIX_DEMO" />
 
@@ -40,6 +40,12 @@ Khi thảo luận về các thay đổi cụ thể, AI có thể giúp tạo mã
 ![Repomix File Usage 2](/images/docs/repomix-file-usage-2.png)
 
 Chúc bạn code vui vẻ! 🚀
+
+## Tại sao chọn Repomix?
+
+Sức mạnh của Repomix nằm ở khả năng làm việc với các dịch vụ đăng ký như ChatGPT, Claude, Gemini, Grok mà không lo lắng về chi phí, đồng thời cung cấp ngữ cảnh codebase hoàn chỉnh giúp loại bỏ nhu cầu khám phá tệp—làm cho việc phân tích nhanh hơn và thường chính xác hơn.
+
+Với toàn bộ codebase có sẵn làm ngữ cảnh, Repomix cho phép một loạt các ứng dụng bao gồm lập kế hoạch triển khai, điều tra lỗi, kiểm tra bảo mật thư viện bên thứ ba, tạo tài liệu và nhiều hơn nữa.
 
 ## Tính năng chính
 

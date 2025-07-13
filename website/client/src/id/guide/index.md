@@ -6,7 +6,7 @@ import YouTubeVideo from '../../../components/YouTubeVideo.vue'
 import { VIDEO_IDS } from '../../../utils/videos'
 </script>
 
-Repomix adalah alat yang mengemas seluruh repositori Anda menjadi satu file yang ramah AI. Ini dirancang untuk membantu Anda menyediakan basis kode Anda ke Model Bahasa Besar (LLM) seperti ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, dan lainnya.
+Repomix adalah alat yang mengemas seluruh repositori Anda menjadi satu file yang ramah AI. Ini dirancang untuk membantu Anda menyediakan basis kode Anda ke Model Bahasa Besar (LLM) seperti ChatGPT, Claude, Gemini, Grok, DeepSeek, Perplexity, Gemma, Llama, dan lainnya.
 
 <YouTubeVideo :videoId="VIDEO_IDS.REPOMIX_DEMO" />
 
@@ -40,6 +40,12 @@ Ketika mendiskusikan perubahan spesifik, AI dapat membantu menghasilkan kode. De
 ![Penggunaan File Repomix 2](/images/docs/repomix-file-usage-2.png)
 
 Selamat mengkode! 🚀
+
+## Mengapa Repomix?
+
+Kekuatan Repomix terletak pada kemampuannya untuk bekerja dengan layanan berlangganan seperti ChatGPT, Claude, Gemini, Grok tanpa khawatir tentang biaya, sambil menyediakan konteks codebase lengkap yang menghilangkan kebutuhan eksplorasi file—membuat analisis lebih cepat dan seringkali lebih akurat.
+
+Dengan seluruh codebase tersedia sebagai konteks, Repomix memungkinkan berbagai aplikasi termasuk perencanaan implementasi, investigasi bug, pemeriksaan keamanan pustaka pihak ketiga, generasi dokumentasi, dan banyak lagi.
 
 ## Fitur Utama
 

@@ -6,7 +6,7 @@ import YouTubeVideo from '../../../components/YouTubeVideo.vue'
 import { VIDEO_IDS } from '../../../utils/videos'
 </script>
 
-Repomix 是一个将代码库打包成单个 AI 友好文件的工具。它专为帮助你将代码提供给大型语言模型（如 ChatGPT、DeepSeek、Perplexity、Gemini、Gemma、Llama、Grok 等）而设计。
+Repomix 是一个将代码库打包成单个 AI 友好文件的工具。它专为帮助你将代码提供给大型语言模型（如 ChatGPT、Claude、Gemini、Grok、DeepSeek、Perplexity、Gemma、Llama 等）而设计。
 
 <YouTubeVideo :videoId="VIDEO_IDS.REPOMIX_DEMO" />
 
@@ -40,6 +40,12 @@ AI 将分析你的整个代码库并提供全面的见解：
 ![Repomix 使用示例2](/images/docs/repomix-file-usage-2.png)
 
 祝你编码愉快！🚀
+
+## 为什么选择 Repomix？
+
+Repomix的强项在于可以与ChatGPT、Claude、Gemini、Grok等订阅服务配合使用而无需担心成本，同时提供完整的代码库上下文，消除了文件探索的需要——使分析更快速，往往也更准确。
+
+通过将整个代码库作为上下文，Repomix支持广泛的应用场景，包括实现规划、错误调查、第三方库安全检查、文档生成等等。
 
 ## 核心功能
 

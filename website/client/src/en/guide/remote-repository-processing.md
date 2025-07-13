@@ -1,4 +1,4 @@
-# Remote Repository Processing
+# GitHub Repository Processing
 
 ## Basic Usage
 

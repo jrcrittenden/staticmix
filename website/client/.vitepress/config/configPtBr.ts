@@ -21,6 +21,7 @@ export const configPtBr = defineConfig({
             { text: 'Instalação', link: '/pt-br/guide/installation' },
             { text: 'Uso Básico', link: '/pt-br/guide/usage' },
             { text: 'Exemplos de Prompt', link: '/pt-br/guide/prompt-examples' },
+            { text: 'Casos de Uso', link: '/pt-br/guide/use-cases' },
           ],
         },
         {
@@ -30,20 +31,26 @@ export const configPtBr = defineConfig({
             { text: 'Opções de Linha de Comando', link: '/pt-br/guide/command-line-options' },
             { text: 'Configuração', link: '/pt-br/guide/configuration' },
             { text: 'Instruções Personalizadas', link: '/pt-br/guide/custom-instructions' },
-            { text: 'Processamento de Repositório Remoto', link: '/pt-br/guide/remote-repository-processing' },
+            { text: 'Processamento de Repositório GitHub', link: '/pt-br/guide/remote-repository-processing' },
             { text: 'Remoção de Comentários', link: '/pt-br/guide/comment-removal' },
             { text: 'Compressão de Código', link: '/pt-br/guide/code-compress' },
             { text: 'Segurança', link: '/pt-br/guide/security' },
-            { text: 'Servidor MCP', link: '/pt-br/guide/mcp-server' },
-            { text: 'GitHub Actions', link: '/pt-br/guide/github-actions' },
           ],
         },
         {
           text: 'Avançado',
           items: [
+            { text: 'Servidor MCP', link: '/pt-br/guide/mcp-server' },
+            { text: 'GitHub Actions', link: '/pt-br/guide/github-actions' },
             { text: 'Usando Repomix como Biblioteca', link: '/pt-br/guide/development/using-repomix-as-a-library' },
             { text: 'Dicas de Desenvolvimento Assistido por IA', link: '/pt-br/guide/tips/best-practices' },
+          ],
+        },
+        {
+          text: 'Comunidade',
+          items: [
             { text: 'Contribuindo para o Repomix', link: '/pt-br/guide/development/' },
+            { text: 'Patrocinadores', link: '/pt-br/guide/sponsors' },
           ],
         },
       ],

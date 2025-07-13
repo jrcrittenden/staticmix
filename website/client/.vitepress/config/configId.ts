@@ -21,6 +21,7 @@ export const configId = defineConfig({
             { text: 'Instalasi', link: '/id/guide/installation' },
             { text: 'Penggunaan Dasar', link: '/id/guide/usage' },
             { text: 'Contoh Prompt', link: '/id/guide/prompt-examples' },
+            { text: 'Kasus Penggunaan', link: '/id/guide/use-cases' },
           ],
         },
         {
@@ -30,23 +31,29 @@ export const configId = defineConfig({
             { text: 'Opsi Baris Perintah', link: '/id/guide/command-line-options' },
             { text: 'Konfigurasi', link: '/id/guide/configuration' },
             { text: 'Instruksi Khusus', link: '/id/guide/custom-instructions' },
-            { text: 'Pemrosesan Repositori Remote', link: '/id/guide/remote-repository-processing' },
+            { text: 'Pemrosesan Repositori GitHub', link: '/id/guide/remote-repository-processing' },
             { text: 'Penghapusan Komentar', link: '/id/guide/comment-removal' },
             { text: 'Kompresi Kode', link: '/id/guide/code-compress' },
             { text: 'Keamanan', link: '/id/guide/security' },
-            { text: 'Server MCP', link: '/id/guide/mcp-server' },
-            { text: 'GitHub Actions', link: '/id/guide/github-actions' },
           ],
         },
         {
           text: 'Lanjutan',
           items: [
+            { text: 'Server MCP', link: '/id/guide/mcp-server' },
+            { text: 'GitHub Actions', link: '/id/guide/github-actions' },
             {
               text: 'Menggunakan Repomix sebagai Library',
               link: '/id/guide/development/using-repomix-as-a-library',
             },
             { text: 'Tips Pengembangan dengan Bantuan AI', link: '/id/guide/tips/best-practices' },
+          ],
+        },
+        {
+          text: 'Komunitas',
+          items: [
             { text: 'Berkontribusi ke Repomix', link: '/id/guide/development/' },
+            { text: 'Sponsor', link: '/id/guide/sponsors' },
           ],
         },
       ],

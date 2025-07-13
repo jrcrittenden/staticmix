@@ -1,4 +1,4 @@
-# Procesamiento de repositorios remotos
+# Procesamiento de repositorios de GitHub
 
 ## Uso básico
 

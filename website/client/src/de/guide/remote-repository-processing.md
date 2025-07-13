@@ -1,4 +1,4 @@
-# Remote-Repository-Verarbeitung
+# GitHub-Repository-Verarbeitung
 
 ## Grundlegende Verwendung
 

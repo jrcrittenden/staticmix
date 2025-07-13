@@ -21,6 +21,7 @@ export const configDe = defineConfig({
             { text: 'Installation', link: '/de/guide/installation' },
             { text: 'Grundlegende Verwendung', link: '/de/guide/usage' },
             { text: 'Prompt-Beispiele', link: '/de/guide/prompt-examples' },
+            { text: 'Anwendungsfälle', link: '/de/guide/use-cases' },
           ],
         },
         {
@@ -30,20 +31,26 @@ export const configDe = defineConfig({
             { text: 'Kommandozeilenoptionen', link: '/de/guide/command-line-options' },
             { text: 'Konfiguration', link: '/de/guide/configuration' },
             { text: 'Benutzerdefinierte Anweisungen', link: '/de/guide/custom-instructions' },
-            { text: 'Remote-Repository-Verarbeitung', link: '/de/guide/remote-repository-processing' },
+            { text: 'GitHub-Repository-Verarbeitung', link: '/de/guide/remote-repository-processing' },
             { text: 'Kommentare entfernen', link: '/de/guide/comment-removal' },
             { text: 'Code-Komprimierung', link: '/de/guide/code-compress' },
             { text: 'Sicherheit', link: '/de/guide/security' },
-            { text: 'MCP-Server', link: '/de/guide/mcp-server' },
-            { text: 'GitHub Actions', link: '/de/guide/github-actions' },
           ],
         },
         {
           text: 'Fortgeschritten',
           items: [
+            { text: 'MCP-Server', link: '/de/guide/mcp-server' },
+            { text: 'GitHub Actions', link: '/de/guide/github-actions' },
             { text: 'Repomix als Bibliothek verwenden', link: '/de/guide/development/using-repomix-as-a-library' },
             { text: 'KI-unterstützte Entwicklungstipps', link: '/de/guide/tips/best-practices' },
+          ],
+        },
+        {
+          text: 'Gemeinschaft',
+          items: [
             { text: 'Zu Repomix beitragen', link: '/de/guide/development/' },
+            { text: 'Sponsoren', link: '/de/guide/sponsors' },
           ],
         },
       ],

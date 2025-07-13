@@ -1,4 +1,4 @@
-# Traitement des dépôts distants
+# Traitement des dépôts GitHub
 
 ## Utilisation de base
 
